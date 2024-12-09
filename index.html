@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <meta charset="UTF-8">
+        <title>Kalendarz adwentowy</title>
+        <style>
+            body{
+                background-color: #66b3d1;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            .kalendarz{
+                display: grid;
+                grid-template-columns: repeat(6,100px);
+                grid-gap: 10px;
+                padding: 10px;
+                background-color: #ffffff;
+                border: 2px solid black;
+                border-radius: 10px;
+            }
+           .diviki
+           {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            background-color: #b91616;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            cursor: pointer;
+            transition: backgroud-color 0.3 ease;
+           }
+           .diviki{
+            background-color: #f9c74f;
+           }
+           .surprize{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(255,  255,  255, 0.9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            border-radius: 8px;
+            font-size: 24px;
+            transition: opacity 0.3s ease;
+           }
+           .diviki:hover .surprize
+           {
+            opacity: 1;
+           }
+        </style>
+    </head>
+    <body>
+        <div class="kalendarz">
+        <div class="diviki">1<div class="surprize">
+            👨</div>
+        </div>
+        <div class="diviki">2<div class="surprize">🎅</div>
+        </div>
+        <div class="diviki">3<div class="surprize">🎁</div>
+        </div>
+        <div class="diviki">4<div class="surprize">😇</div>
+        </div>
+        <div class="diviki">5<div class="surprize">🎄</div>
+        </div>
+        <div class="diviki">6<div class="surprize">🐵</div>
+        </div>
+        <div class="diviki">7<div class="surprize">🦍</div>
+        </div>
+        <div class="diviki">8<div class="surprize">🐒</div>
+        </div>
+        <div class="diviki">9<div class="surprize">🦧</div>
+        </div>
+        <div class="diviki">10<div class="surprize">🎅</div>
+        </div>
+        <div class="diviki">11<div class="surprize">🎅</div>
+        </div>
+        <div class="diviki">12<div class="surprize">🎅</div>
+        </div>
+        <div class="diviki">13<div class="surprize">🎅</div>
+        </div>
+        <div class="diviki">14<div class="surprize">🎅</div>
+        </div>
+        <div class="diviki">15<div class="surprize">🎅</div>
+        </div>
+        <div class="diviki">16<div class="surprize">🎅</div>
+        </div>
+        <div class="diviki">17<div class="surprize">🎅</div>
+        </div>
+        <div class="diviki">18<div class="surprize">🎅</div>
+        </div>
+        <div class="diviki">19<div class="surprize">🎅</div>
+        </div>
+        <div class="diviki">20<div class="surprize">🎅</div>
+        </div>
+        <div class="diviki">21<div class="surprize">🎅</div>
+        </div>
+        <div class="diviki">22<div class="surprize">🎅</div>
+        </div>
+        <div class="diviki">23<div class="surprize">🎅</div>
+        </div>
+        <div class="diviki">24<div class="surprize">🎅</div>
+        </div>
+    </div>
+    </body>
+</html>
